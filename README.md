@@ -4,11 +4,11 @@ This project was a course group project of CPSC2221 (Data Base Systems) during m
 
 This project was awarded Langara Open Student Scholar Prize 2023 (Second-place).
 
-# Project description
+## Project description
 
 There is a dental clinic managed by several dentists. Each dentist receives some patients. For each patient, several appointments are booked on different days and times. Each patient may have one or more insurance policies, which can cover a payment fully or partially. It is assumed that, in most payments, a patient pays partially with one or more insurance policies. We need to store the information of insurance policies of the patients. Each insurance policy under the same insurer has its own unique policy number, but the same number may be used by different insurance companies. Some patients may not have an insurance policy and they pay the expenses from their own pocket. We also need to store the payment history of the patients. A patient may pay all expenses at once or in different installments. Patients can refer to their friends and families and we store this information in the database too.
 
-# Assumptions
+## Assumptions
 
 - A dentist may have no patient (e.g. when a new dentist joins the clinic).
 - A person can only be registered as a patient after making the very first appointment.
@@ -17,7 +17,7 @@ There is a dental clinic managed by several dentists. Each dentist receives some
 - Each appointment is made between one patient and one dentist.
 - One or more services can be provided in one appointment.
 
-# Further information
+## Further information
 
 Please refer to `project-report.pdf` for information about the EER diagram, schema mapping, normalization, domain and constraint determination, and data for testing.
 
